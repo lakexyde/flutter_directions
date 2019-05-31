@@ -1,8 +1,8 @@
 name: flutter_directions
 description: A new Flutter package project.
 version: 0.0.1
-author:
-homepage:
+author: Olalekan Oladipupo <lakesida10@gmail.com>
+homepage: https://github.com/lakexyde/flutter_directions
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

@@ -4,7 +4,7 @@ A new Flutter package that lets you open directions between coordinates on Googl
 
 ## Usage
 
-To use this plugin, add ```flutter_directions``` as a dependency in your pubspec.yaml file.
+To use this plugin, add ```flutter_directions``` as a dependency in your ```pubspec.yaml``` file.
 
 ## Example
 

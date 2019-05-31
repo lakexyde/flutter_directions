@@ -2,6 +2,8 @@
 
 A new Flutter package that lets you open directions between coordinates on Google Maps.
 
+[![Version](https://img.shields.io/pub/v/flutter_directions.svg)](https://pub.dartlang.org/packages/flutter_directions)
+
 ## Usage
 
 To use this plugin, add ```flutter_directions``` as a dependency in your ```pubspec.yaml``` file.

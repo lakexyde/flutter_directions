@@ -1,14 +1,33 @@
 # flutter_directions
 
-A new Flutter package project.
+A new Flutter package that lets you open directions between coordinates on Google Maps.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+To use this plugin, add ```flutter_directions``` as a dependency in your pubspec.yaml file.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Example
+
+```
+import 'package:flutter/material.dart';
+import 'package:flutter_directions/flutter_directions.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart' show LatLng;
+
+void main() {
+  runApp(Scaffold(
+    body: Center(
+      child: RaisedButton(
+        onPressed: _showDirections,
+        child: Text('Show Directions'),
+      ),
+    ),
+  ));
+}
+
+_showDirections() async {
+    LatLng from = LatLng(37.4220041,-122.0862462);
+    LatLng to = LatLng(37.4228132,-122.0871649);
+
+    FlutterDirections.navigate(from, to);
+}
+```
